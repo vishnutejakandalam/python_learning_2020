@@ -1,0 +1,13 @@
+Interpreters
+Operators
+Strings
+Looping, Datatypes, Lists, Conditional statements
+Functions
+Keywords (break, continue)
+and, or
+dictionaries
+import, from, tuples
+Variables
+
+
+y = {TRUE, FALSE}

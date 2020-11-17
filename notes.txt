@@ -1,0 +1,4 @@
+C, C++, Java: Compilation based
+Compiler: Which exactly takes in high level program as a whole and converts it into machine code.
+Python: Interpreter based languages
+Interpreter: which takes in high level program line by line and tries to convert it into machine code.
