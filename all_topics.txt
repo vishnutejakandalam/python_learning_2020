@@ -8,6 +8,8 @@ and, or
 dictionaries
 import, from, tuples
 Variables
+Class,  Object
+Nested loops
 
 
-y = {TRUE, FALSE}
+
