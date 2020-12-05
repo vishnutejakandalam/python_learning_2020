@@ -19,19 +19,19 @@ def devide(a,b):
 #     print("Cannot devide by zero dude! ")
 #     exit()
     x,y = take_input()
-try:
-    print(devide(x,y))
-except:
-    print("B must not be zero.")
-    x,y = take_input()
-    print(devide(x,y))
-
 # try:
-#     std_id = int(input("enter your student id"))
+#     print(devide(x,y))
 # except:
-#     print("Error in input\n")
-#     exit()
+#     print("B must not be zero.")
+#     x,y = take_input()
+#     print(devide(x,y))
 
-# with open("std_details.txt", 'a') as file:
-#     file.write(str(std_id)+"\n")
-
+try:
+    std_id = 0
+    std_id = int(input("enter your student id"))
+except:
+    print("Error in input\n")
+else:
+    with open("std_details.txt", 'a') as file:
+        file.write(str(std_id)+"\n")
+print("THIS IS PRINTING BECAUSE OF PYTHON....")
