@@ -6,13 +6,51 @@ class Gun:
     name = ""
     material = ""   
     skin = ""
-    
+    def firing(self):
+        pass
     def aiming(self):
-        print("Aiming with ",self.name,".....")
+        print("Default aiming code Here!")
 
-class Pistol(Gun):
     def display(self):
-        print(this.name," has magzine size of ",this.magzine_size)
+        print(self.name," has magzine size of ",self.magzine_size)
+
+    
+class Pistol(Gun):
+    def __init__(self,name):
+        self.name = name
+    def aiming(self):   #funcion overriding....
+        print("Aiming at short range")
+    
+    
+class Rifle(Gun):
+    def __init__(self,name):
+        self.name = name
+    def aiming(self):
+        aim_range = input("Enter the range you want to set")
+        print("Aiming at ",aim_range)
+
+
+class Sniper(Gun):
+    def __init__(self,name):
+        self.name = name
+
+    def aiming(self):
+        print("using scope to aim at the enemy")
+
+
+
+hand_gun = Pistol("Hand gun")
+hand_gun.magzine_size = 15
+hand_gun.display()
+awm = Sniper("AWM")
+awm.magzine_size = 7
+awm.firing()
+awm.display()
+hand_gun.aiming()
+awm.aiming()
+m416 = Rifle("M416")
+m416.aiming()
+m416.display()
 
         
 

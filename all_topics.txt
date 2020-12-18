@@ -12,6 +12,7 @@ Class,  Object
 Nested loops
 File handling
 Exception handling
+Inheritance
 
 
 
