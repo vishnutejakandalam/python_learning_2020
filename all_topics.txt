@@ -2,13 +2,13 @@ Interpreters
 Operators
 Strings
 Looping, Datatypes, Lists, Conditional statements
-Functions
+Functions *
 Keywords (break, continue)
 and, or
 dictionaries
-import, from, tuples
+import, from, tuples from file_name import package_name
 Variables
-Class,  Object
+Class,  Object = variables for class
 Nested loops
 File handling
 Exception handling
